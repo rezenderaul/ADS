@@ -81,4 +81,11 @@
     * Pode ocasionar desperdício de memória.
     * O vetor não pode "aumentar de tamanho" em tempo de execução.
 * Sintaxe:
-- 03:45
+```C
+<ponteiro> = (<cast> * )malloc(sizeof(<tipo>) + <tamanho>);
+```
+* Exemplo:
+```C
+1 int *vetor;
+2 vetor = (int *)malloc(sizeof(int)*10);
+```
