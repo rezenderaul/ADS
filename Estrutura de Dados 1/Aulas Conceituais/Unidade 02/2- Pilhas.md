@@ -30,3 +30,35 @@
 10 };
 11
 12 struct tipo_pilha pilha;
+13
+```
+* Empilhar (```push```)
+```C
+14 void empilha(int elemento) {
+15      if(pilha.topo == tamanho){
+16      printf("Fila cheia.\n");
+17      system("pause");    
+18      }
+19      else {
+20          pilha.dados[pilha.topo] = elemento;
+21          pilha.topo++;
+22      }    
+23 }
+24
+```
+* Desempilhar (```pop```)
+```C
+25 int desempilha(){
+26      int elemento;
+27      if(pilha.topo == pilha.ini){
+28          printf("Fila vazia.\n");
+29          system("pause");
+30      }
+31      else {
+32          pilha.topo--;
+33          elemento = pilha.dados[pilha.topo];
+34          return elemento;
+35      }
+36 }
+37
+```
