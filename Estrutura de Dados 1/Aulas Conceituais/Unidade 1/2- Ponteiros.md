@@ -7,6 +7,7 @@ Como funciona a memória do computador?
     * Int: 4 bytes
     * Float: 4 bytes
     * Double: 8 bytes
+    * Bool: 1 byte
 
 * Exemplo:
     * Declaração:
@@ -61,15 +62,15 @@ Como funciona a memória do computador?
     ```
 * Exemplo: testando um ponteiro
 ```C
-1 #include <stdio.h>
-2 #include <stdlib.h>
-3 int *p;
-4 int x;
-5 int main(){
-6     x = 10;
-7     p = &x;
-8     x = 20;
-9     *p = 30;
+ 1 #include <stdio.h>
+ 2 #include <stdlib.h>
+ 3 int *p;
+ 4 int x;
+ 5 int main(){
+ 6     x = 10;
+ 7     p = &x;
+ 8     x = 20;
+ 9     *p = 30;
 10 }
 ```
 * Observação importante:

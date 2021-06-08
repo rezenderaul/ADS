@@ -65,7 +65,7 @@ A [1][0];
 ```
 
 ### Estruturas de dados heterogêneas:
-Também conhecidos como registros, tipos de dados compostos, **structs**.  
+Também conhecidos como registros, tipos de dados compostos, ```structs```.  
 * Em linguagem C:
     * Agrupam informações de tipos de dados diferentes
     * Trata de um grupo de valores como sendo uma única variável com vários campos distintos
@@ -83,10 +83,10 @@ Também conhecidos como registros, tipos de dados compostos, **structs**.
     ```
 * Esta é a declaração de um novo registro, reconhecido por ```<nome_do_registro>```
 
-    * Como utilizar uma struct?
-      * Apenas definir a struct não basta
+    * Como utilizar uma ```struct```?
+      * Apenas definir a ```struct``` não basta
       * É preciso criar uma variável do novo tipo criado
-    * Sintaxe para criação de uma variável do tipo struct:
+    * Sintaxe para criação de uma variável do tipo ```struct```:
     ``` C
     struct <nome_do_registro> <nome_da_variável>
     ```
