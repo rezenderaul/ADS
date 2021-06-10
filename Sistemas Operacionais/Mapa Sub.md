@@ -11,7 +11,7 @@ Além desta necessidade, a empresa solicitou que seja movido (copiado e apagado)
 ```bash
 cd /home/appsoftware/tomcat/webapps
 ```
-## entrando na pasta webapps a partir do caminho apresentado no comando.
+\## entrando na pasta webapps a partir do caminho apresentado no comando.
 
 * **COMO ENTREGAR A ATIVIDADE:**
 1. Utilize um editor de textos e apresente o que foi solicitado.
